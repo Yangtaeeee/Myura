@@ -92,7 +92,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://ibb.co/3yF39P1') no-repeat;
+    background-image: url('https://ibb.co/3yF39P1') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
