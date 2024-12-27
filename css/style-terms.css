@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Korean';
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#Myuralogo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 75px;
+    object-fit: cover;
+}
+
+#navi_menubtn {
+    position: absolute;
+    display: none;
+    top: 31px;
+    right: 31px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.desc {
+    position: absolute;
+    width: 100%;
+}
+
+.desc img {
+    position: absolute;
+    top: -21vh;
+    width: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.desctxt {
+    position: absolute;
+    top: 20vh;
+    padding: 20px 100px;
+    width: 100%;
+    color: #fff;
+    background: #000;
+    z-index: 10;
+}
+
+.desctxt h2 {
+    font-size: 3em;
+}
+
+.desctxt p {
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        align-items: flex-start;
+        padding: 25px;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    #maintxt a {
+        font-size: 2.2em;
+    }
+
+    .desctxt {
+        padding: 0 25px;
+        font-size: 75%;
+    }
+}

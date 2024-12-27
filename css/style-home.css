@@ -94,7 +94,7 @@ header {
     height: 100vh;
     background: url('../img/girl.png');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
 }
 
@@ -118,7 +118,7 @@ header {
 .tre {
     display: flex;
     position: absolute;
-    justify-content: space-between;
+    justify-content:center;
     top: 60px;
     left: 0;
     right: 0;
@@ -176,7 +176,7 @@ header {
         align-items: flex-start;
         padding: 25px;
     }
-    
+
     .navi {
         flex-direction: column;
         display: none;
@@ -185,6 +185,14 @@ header {
         align-items: flex-end;
         margin-top: 70px;
         line-height: 50px;
+    }
+
+    .desctxt h2 {
+        font-size: 5em;
+    }
+    
+    .desctxt h4 {
+        font-size: 1.9em;
     }
 
     #navi_menubtn {
