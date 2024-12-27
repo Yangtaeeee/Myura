@@ -119,10 +119,8 @@ header {
     display: flex;
     position: absolute;
     justify-content:space-around;
-    top: 60px;
-    left: 0;
-    right: 0;
-    width: 100%;
+    top: 250px;
+    width: 130%;
     pointer-events: none;
 }
 
