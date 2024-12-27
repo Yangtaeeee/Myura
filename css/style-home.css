@@ -118,7 +118,7 @@ header {
 .tre {
     display: flex;
     position: absolute;
-    justify-content:space-evenly;
+    justify-content:space-around;
     top: 60px;
     left: 0;
     right: 0;
